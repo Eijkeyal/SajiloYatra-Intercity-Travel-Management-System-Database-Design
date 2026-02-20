@@ -1,0 +1,10 @@
+select table Query
+SELECT * FROM Route;
+SELECT * FROM Trip;
+SELECT * FROM Bus;
+SELECT * FROM Staff;
+SELECT * FROM Passenger;
+SELECT * FROM Trip_Bus;
+SELECT * FROM Trip_Bus_Staff;
+SELECT * FROM Ticket;
+SELECT * FROM Payment;

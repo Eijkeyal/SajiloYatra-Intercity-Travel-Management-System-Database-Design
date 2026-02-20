@@ -1,0 +1,9 @@
+DROP TABLE Payment;
+DROP TABLE Ticket;
+DROP TABLE Trip_Bus_Staff;
+DROP TABLE Trip_Bus;
+DROP TABLE Passenger;
+DROP TABLE Staff;
+DROP TABLE Bus;
+DROP TABLE Trip;
+DROP TABLE Route;
