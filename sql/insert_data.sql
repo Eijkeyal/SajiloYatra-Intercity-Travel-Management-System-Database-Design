@@ -1,98 +1,4 @@
-Skip to content
-SajiloYatra-Intercity-Travel-Management-System-Database-Design
-Repository navigation
-Code
-Issues
-Pull requests
-Agents
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Commit 0178955
-author
-Eijkeyal Pakhrin
-committed
-17 minutes ago
-Add README, .gitignore and organize repository structure
-main
-1 parent 
-61a4702
- commit 
-0178955
-File tree
-Filter files…
-.DS_Store
-.gitignore
-DROP TABLE Payment;.txt
-SQL Query.txt
-Sajilo Yatra Travel Bus Database Dump File
-backups
-Database Dump file.zip
-create table.txt
-docs
-SajiloYatra - Intercity Travel Management System.pdf
-insert data.txt
-select table.txt
-sql
-create_tables.sql
-information_queries.sql
-insert_data.sql
-transaction_queries.sql
-~$5051_Databases_Coursework_AU25_FirstSitFirstSet_158223 (1).docx
-~$lestone2.docx
-16 files changed
-+21
--315
-lines changed
-Search within code
- 
-‎.DS_Store‎
--6 KB
-Binary file not shown.
-‎.gitignore‎
-+21
-Lines changed: 21 additions & 0 deletions
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,21 @@
-# OS files
-.DS_Store
-Thumbs.db
-._*
-*.swp
-*.swo
-# Temporary files
-*.tmp
-*.temp
-~$*
-*.bak
-*.backup
-# IDE files
-.vscode/
-.idea/
-*.imx
-# Logs
-*.log
-‎DROP TABLE Payment;.txt‎
--9
-Lines changed: 0 additions & 9 deletions
-This file was deleted.
-‎SQL Query.txt‎
--125
-Lines changed: 0 additions & 125 deletions
-This file was deleted.
-‎Sajilo Yatra Travel Bus Database Dump File‎
--34 KB
-Binary file not shown.
-‎Database Dump file.zip‎  ‎backups/Database Dump file.zip‎Database Dump file.zip renamed to backups/Database Dump file.zip
-File renamed without changes.
-‎create table.txt‎
--89
-Lines changed: 0 additions & 89 deletions
-Original file line number	Diff line number	Diff line change
-@@ -1,89 +0,0 @@
+
 Create table Query
 1. Route 
 CREATE TABLE Route (
@@ -253,5 +159,6 @@ INSERT INTO Payment VALUES (4, 4, 'Cash', 1200);
 INSERT INTO Payment VALUES (5, 5, 'Card', 1600);
 INSERT INTO Payment VALUES (6, 6, 'Online', 3000);
 INSERT INTO Payment VALUES (7, 7, 'Cash', 1400);
+
 
 
